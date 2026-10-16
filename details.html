@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Детальна інформація про роман Джорджа Орвелла 1984: опис, характеристики та видання.">
+    <title>1984 — Бібліотека книг</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<header id="top">
+    <p><strong>Бібліотека книг</strong></p>
+    <p>Лабораторна робота №3 — таблиці, списки, медіа та навігація в HTML5.</p>
+    <p>Виконав: Аксьонов Ігор, група ІН-43-5.</p>
+
+    <nav aria-label="Основна навігація">
+        <ul>
+            <li><a href="index.html">Каталог</a></li>
+            <li><a href="about.html">Про проєкт</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <nav aria-label="Хлібні крихти">
+        <ol>
+            <li><a href="index.html">Каталог</a></li>
+            <li aria-current="page">1984</li>
+        </ol>
+    </nav>
+
+    <h1>1984</h1>
+
+    <nav aria-label="На цій сторінці">
+        <h2>На цій сторінці</h2>
+        <ul>
+            <li><a href="#description">Опис</a></li>
+            <li><a href="#characteristics">Характеристики</a></li>
+            <li><a href="#editions">Видання</a></li>
+        </ul>
+    </nav>
+
+    <figure>
+        <picture>
+            <source
+                media="(max-width: 700px)"
+                type="image/png"
+                srcset="https://upload.wikimedia.org/wikipedia/commons/9/9d/1984_and_photo_of_George_Orwell.png">
+            <source
+                type="image/jpeg"
+                srcset="https://upload.wikimedia.org/wikipedia/commons/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg">
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg"
+                alt="Обкладинка видання роману 1984 Джорджа Орвелла"
+                width="637" height="950"
+                fetchpriority="high">
+        </picture>
+        <figcaption>Одне з видань роману Джорджа Орвелла «1984».</figcaption>
+    </figure>
+
+    <section id="description">
+        <h2>Опис</h2>
+        <p>
+            <strong>«1984»</strong> — антиутопічний роман <em>Джорджа Орвелла</em>,
+            уперше опублікований у <time datetime="1949-06-08">1949 році</time>.
+        </p>
+        <p>
+            Події твору відбуваються у державі, де влада контролює інформацію,
+            історію та приватне життя громадян. Головний герой Вінстон Сміт працює
+            з офіційними документами, але поступово починає сумніватися у системі.
+        </p>
+        <p>
+            Роман став одним із найвідоміших творів про цензуру, пропаганду,
+            масове спостереження та свободу особистості.
+        </p>
+    </section>
+
+    <section id="characteristics">
+        <h2>Характеристики</h2>
+        <dl>
+            <dt>Категорія</dt>
+            <dd>Антиутопія</dd>
+
+            <dt>Кількість сторінок</dt>
+            <dd><data value="328">328 сторінок</data></dd>
+
+            <dt>Дата першого видання</dt>
+            <dd><time datetime="1949-06-08">8 червня 1949 року</time></dd>
+
+            <dt>Стан</dt>
+            <dd>Прочитано</dd>
+        </dl>
+    </section>
+
+    <section id="editions">
+        <h2>Видання</h2>
+        <table>
+            <caption>Приклади видань роману «1984»</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Видання</th>
+                    <th scope="col">Рік</th>
+                    <th scope="col">Кількість сторінок</th>
+                    <th scope="col">Мова</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Secker &amp; Warburg</th>
+                    <td>1949</td>
+                    <td>328</td>
+                    <td>Англійська</td>
+                </tr>
+                <tr>
+                    <th scope="row">Українське видання</th>
+                    <td>2015</td>
+                    <td>312</td>
+                    <td>Українська</td>
+                </tr>
+                <tr>
+                    <th scope="row">Сучасне перевидання</th>
+                    <td>2023</td>
+                    <td>320</td>
+                    <td>Українська</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <p><a href="index.html">Повернутися до каталогу</a></p>
+    <p><a href="#top">Повернутися на початок сторінки</a></p>
+</main>
+
+<footer>
+    <p><small>© 2026 Аксьонов Ігор. Навчальний проєкт.</small></p>
+</footer>
+</body>
+</html>

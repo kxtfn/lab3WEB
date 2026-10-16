@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Навчальний каталог книг із семантичною HTML5-розміткою.">
+    <title>Каталог — Бібліотека книг</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+<header id="top">
+    <h1>Бібліотека книг</h1>
+    <p>Лабораторна робота №3 — таблиці, списки, медіа та навігація в HTML5.</p>
+    <p>Виконав: Аксьонов Ігор, група ІН-43-5.</p>
+
+    <nav aria-label="Основна навігація">
+        <ul>
+            <li><a href="index.html" aria-current="page">Каталог</a></li>
+            <li><a href="about.html">Про проєкт</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="catalog" aria-labelledby="catalog-title">
+        <h2 id="catalog-title">Каталог книг</h2>
+        <p>У каталозі наведено шість книг. Назва кожної книги веде на сторінку з детальною інформацією.</p>
+
+        <ul>
+            <li>
+                <article>
+                    <h3><a href="details.html">1984</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Nineteen_Eighty-Four_cover_Soviet_1984.jpg"
+                         alt="Обкладинка видання роману 1984 Джорджа Орвелла"
+                         width="320" height="477" fetchpriority="high">
+                    <p><strong>Автор:</strong> Джордж Орвелл</p>
+                    <p><strong>Жанр:</strong> Антиутопія</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1949-06-08">1949</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="328">328</data></p>
+                    <p><strong>Опис:</strong> Антиутопічний роман про суспільство тотального контролю, цензуру, пропаганду та боротьбу людини за свободу думки.</p>
+                    <p><strong>Прочитано:</strong> так</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3><a href="details.html">Гобіт</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/The_Hobbit_-_title_page_of_first_American_print.jpg"
+                         alt="Титульна сторінка першого американського видання книги Гобіт"
+                         width="320" height="455" loading="lazy">
+                    <p><strong>Автор:</strong> Дж. Р. Р. Толкін</p>
+                    <p><strong>Жанр:</strong> Фентезі</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1937-09-21">1937</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="310">310</data></p>
+                    <p><strong>Опис:</strong> Пригодницька історія про Більбо Торбина, який вирушає у небезпечну подорож разом із гномами.</p>
+                    <p><strong>Прочитано:</strong> так</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3><a href="details.html">451° за Фаренгейтом</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Fahrenheit451HUNcover.jpg"
+                         alt="Обкладинка угорського видання роману 451 градус за Фаренгейтом"
+                         width="320" height="453" loading="lazy">
+                    <p><strong>Автор:</strong> Рей Бредбері</p>
+                    <p><strong>Жанр:</strong> Фантастика</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1953-10-19">1953</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="249">249</data></p>
+                    <p><strong>Опис:</strong> Роман про світ, у якому книги заборонені, а пожежники займаються їх знищенням.</p>
+                    <p><strong>Прочитано:</strong> ні</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3><a href="details.html">Маленький принц</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/National_Museum_of_Ethnology%2C_Osaka_-_Collection_of_%22Le_Petit_Prince%22_in_many_languages.jpg"
+                         alt="Колекція видань Маленького принца різними мовами"
+                         width="320" height="240" loading="lazy">
+                    <p><strong>Автор:</strong> Антуан де Сент-Екзюпері</p>
+                    <p><strong>Жанр:</strong> Класика</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1943-04-06">1943</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="96">96</data></p>
+                    <p><strong>Опис:</strong> Філософська повість про дружбу, відповідальність, любов і здатність бачити справді важливе.</p>
+                    <p><strong>Прочитано:</strong> так</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3><a href="details.html">Гордість і упередження</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/PrideAndPrejudiceTitlePage.jpg"
+                         alt="Титульна сторінка першого видання роману Гордість і упередження"
+                         width="320" height="517" loading="lazy">
+                    <p><strong>Автор:</strong> Джейн Остін</p>
+                    <p><strong>Жанр:</strong> Класика</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1813-01-28">1813</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="432">432</data></p>
+                    <p><strong>Опис:</strong> Роман про стосунки, суспільні очікування та помилкові перші враження.</p>
+                    <p><strong>Прочитано:</strong> ні</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <h3><a href="details.html">Франкенштейн</a></h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Frankenstein_1818_edition_title_page.jpg"
+                         alt="Титульна сторінка першого видання роману Франкенштейн 1818 року"
+                         width="320" height="569" loading="lazy">
+                    <p><strong>Автор:</strong> Мері Шеллі</p>
+                    <p><strong>Жанр:</strong> Класика</p>
+                    <p><strong>Рік видання:</strong> <time datetime="1818-01-01">1818</time></p>
+                    <p><strong>Кількість сторінок:</strong> <data value="280">280</data></p>
+                    <p><strong>Опис:</strong> Історія Віктора Франкенштейна та наслідків його експерименту зі створення живої істоти.</p>
+                    <p><strong>Прочитано:</strong> ні</p>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <p><a href="#top">Повернутися на початок сторінки</a></p>
+</main>
+
+<footer>
+    <p><small>© 2026 Аксьонов Ігор. Навчальний проєкт.</small></p>
+</footer>
+</body>
+</html>
